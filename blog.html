@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sailor-Blog</title>
+
+  <!------meta-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="adefila samuel">
+  <meta name="keyboards" content="html,css,javascipt">
+  <meta name="description" content="sailor">
+
+
+
+  <!--======googlefont-->
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sansita Swashed' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather Sans' rel='stylesheet'>
+
+  <!--=====font-awesome-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+  <!--=====bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+  <!--=====vendor-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!--==========favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+
+  <!--=====my style css-->
+  <link href="css/style.css" rel="stylesheet" media="screen">
+
+</head>
+
+<body>
+
+  <!--============================navigation================-->
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+
+    <a class="navbar-brand" href="index.html">sailor</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#exampleModal"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-align-justify"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="dropdown show">
+
+          <a class="nav-link" id="dropdownmenulink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+            href="#">About <i class="fas fa-chevron-down"></i></a>
+
+          <div class="dropdown-menu menu1" aria-labelledby="dropdownmenulink">
+            <a class="dropdown-item modal-link" href="about.html">About us</a>
+            <a class="dropdown-item modal-link" href="team.html">Team</a>
+            <a class="dropdown-item modal-link" href="testimonial.html">Testimonials</a>
+
+            <a class="nav-link" id="dropdownmenulink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+              href="#">Deep Drop Down <i class="fas fa-chevron-left"></i></a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 1</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 2</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 3</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 4</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 5</a>
+            </div>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="services.html" target="_self">Services</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html" target="_self">Portfolio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html" target="_self">Pricing</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="blog.html" target="_self">Blog</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" target="_self">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <a href="#" role="button" class="btn btn-danger" id="get">Get started</a>
+  </nav>
+  <!--=============================end of navigation================-->
+
+  <!--breadcrumb-->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb" id="bread">
+      <p class="about">Blog</p>
+      <li class="breadcrumb-item ml-auto">
+        <a href="index.html" class="home">Home</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">Blog</li>
+  </nav>
+  <!---end of breadcrumb-->
+
+
+  <!--==========Blog=====-->
+
+  <div class="container">
+    <div class="row">
+      <div class="card-deck">
+
+        <!--====First Blog======-->
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img src="img/blog-1.jpg" class="card-img-top" alt="blog">
+            <div class="card-body">
+              <a href="blog-single.html" class="card-title">Dolorum optio tempore voluptas dignissimos cumque fuga qui
+                quibusdam quia</a><br>
+              <p id="user"><i class="fas fa-user"></i> John Doe <i class="far fa-clock"></i> Jan 1,2020</p>
+              <p class="card-text">Similique neque nam consequuntur ad non maxime aliquam quas.
+                Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid
+                dicta zena prista maraeda talan mas indera.
+              </p>
+              <a href="#" class="btn btn-danger" id="blog-btn">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!--=====Second Blog======--->
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img src="img/blog-2.jpg" class="card-img-top" alt="blog">
+            <div class="card-body">
+              <a href="blog-single.html" class="card-title">Nisi magni odit consequatur autem nulla dolorem</a><br>
+              <p id="user"><i class="fas fa-user"></i> John Doe <i class="far fa-clock"></i> Jan 1,2020</p>
+              <p class="card-text">Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit
+                aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid excepturi
+                molestiae.
+                Facilis et sint quos sed voluptas. Maxime sed tempore enim omnis non alias.
+              </p>
+              <a href="#" class="btn btn-danger" id="blog-btn">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!--=====Third Blog======-->
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+          <div class="card h-100">
+            <img src="img/blog-3.jpg" class="card-img-top" alt="blog">
+            <div class="card-body">
+              <a href="blog-single.html" class="card-title">Possimus soluta ut id suscipit ea ut. In quo quia et soluta
+                libero sit sint.
+              </a><br>
+              <p id="user"><i class="fas fa-user"></i> John Doe <i class="far fa-clock"></i> Jan 1,2020</p>
+              <p class="card-text">Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem
+                dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis tara kero pakla
+                metaruna nedore stan..
+              </p>
+              <a href="#" class="btn btn-danger" id="blog-btn">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!--=====Fourth Blog======-->
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+          <div class="card h-100">
+            <img src="img/blog-4.jpg" class="card-img-top" alt="blog">
+            <div class="card-body">
+              <a href="blog-single.html" class="card-title">Non rem rerum nam cum quo minus. Dolor distinctio deleniti
+                explicabo eius exercitationem.
+              </a><br>
+              <p id="user"><i class="fas fa-user"></i> John Doe <i class="far fa-clock"></i> Jan 1,2020</p>
+              <p class="card-text">Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem
+                veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui.
+              </p>
+              <a href="#" class="btn btn-danger" id="blog-btn">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!--=====Fifth Blog======-->
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+          <div class="card">
+            <img src="img/blog-5.jpg" class="card-img-top" alt="blog">
+            <div class="card-body">
+              <a href="blog-single.html" class="card-title">Blanditiis dignissimos deleniti. Rerum iste et.
+              </a><br>
+              <p id="user"><i class="fas fa-user"></i> John Doe <i class="far fa-clock"></i> Jan 1,2020</p>
+              <p class="card-text">Quidem et eum explicabo quia illo numquam nostrum corrupti provident. Quia aspernatur
+                et et facere. Quisquam maiores natus nihil incidunt ipsum est optio eum maxime. Dignissimos vitae
+                explicabo. Corrupti esse sed a a. Laborum optio reprehenderit quia dena per.
+              </p>
+              <a href="#" class="btn btn-danger" id="blog-btn">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!--=====Sixth Blog======-->
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+          <div class="card h-100">
+            <img src="img/blog-6.jpg" class="card-img-top" alt="blog">
+            <div class="card-body">
+              <a href="blog-single.html" class="card-title">Debitis cupiditate saepe ex quam aut id. Consequatur
+                dignissimos et id id.
+              </a><br>
+              <p id="user"><i class="fas fa-user"></i> John Doe <i class="far fa-clock"></i> Jan 1,2020</p>
+              <p class="card-text">Modi dolor et placeat ut iure ad. Qui perferendis fugit quo et cumque facilis et
+                debitis rerum. Repellendus animi qui eos. Unde perferendis et tempora Ratione porro omnis magn delata
+                sera marto ned.
+              </p>
+              <a href="#" class="btn btn-danger" id="blog-btn">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="pagin">
+        <div class="col-12">
+          <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                  &lt; </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">&gt;</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+
+
+
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+  <!--=============Footer======-->
+  <footer id="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="sailor">sailor</h5>
+          <p class="footer-address">A108 Adam Street<br>NY 535022, USA</p>
+          <p class="footer-number"><strong>Phone:</strong>+1 5589 55488 55</p>
+          <p class="footer-email"><strong>Email:</strong>info@example.com</p>
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-twitter social"></i></a>
+          <i class="fab fa-facebook social"></i>
+          <i class="fab fa-instagram social"></i>
+          <i class="fab fa-skype social"></i>
+          <i class="fab fa-linkedin social"></i>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="other-link">useful links </h5>
+          <p class="sailor-link">> Home</p>
+          <p class="sailor-link">> About us</p>
+          <p class="sailor-link">> Services</p>
+          <p class="sailor-link">> Terms of service</p>
+          <p class="sailor-link">> Privacy policy</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="other-link">our services</h5>
+          <p class="sailor-link">> web design</p>
+          <p class="sailor-link">> web development</p>
+          <p class="sailor-link">> product management</p>
+          <p class="sailor-link">> marketing</p>
+          <p class="sailor-link">> graphics design</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3" id="newsletter">
+          <h5 class="other-link">our newsletter</h5>
+          <p class="footer-line">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <input type="text" name="email" class="form-control">
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer-down">
+      <div class="footer-downtext">
+        © Copyright Sailor. All Rights Reserved</div>
+      <div class="footer-downtext1">
+        Designed by Leumas Tech
+      </div>
+    </footer>
+  </footer>
+
+
+  <!--====================Modal for navigation -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-body">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="index.html">Home</a>
+            </li>
+
+            <li class="dropdown show">
+
+              <a class="nav-link dropdown-toggle modal-link" id="dropdownmenulink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" href="#">About</a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+                <a class="dropdown-item modal-link" href="about.html">About us</a>
+                <a class="dropdown-item modal-link" href="team.html">Team</a>
+                <a class="dropdown-item modal-link" href="testimonial.html">Testimonials</a>
+
+                <a class="nav-link dropdown-toggle modal-link" id="dropdownmenulink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" href="#">Deep Drop Down</a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 1</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 2</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 3</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 4</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 5</a>
+                </div>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="services.html" target="_self">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link active" href="portfolio.html" target="_self">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="pricing.html" target="_self">Pricing</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="blog.html" target="_self">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="contact.html" target="_self">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---of of modal subscribe-->
+
+  <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+
+  <!--========================javascript-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Vendor JS -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/owl.carousel/owl.carousel.js"></script>
+  <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+
+  <!-- my js -->
+  <script src="js/main.js"></script>
+  <!--===================End of javascript-->
+</body>
+
+</html>

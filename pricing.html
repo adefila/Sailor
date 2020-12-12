@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sailor-Pricing</title>
+
+  <!------meta-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="adefila samuel">
+  <meta name="keyboards" content="html,css,javascipt">
+  <meta name="description" content="sailor">
+
+
+
+  <!--======googlefont-->
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sansita Swashed' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather Sans' rel='stylesheet'>
+
+  <!--=====font-awesome-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!--=====bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+  <!--=====vendor-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!--==========favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+
+  <!--=====my style css-->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--============================navigation================-->
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+
+    <a class="navbar-brand" href="index.html">sailor</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#exampleModal"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-align-justify"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="dropdown show">
+
+          <a class="nav-link" id="dropdownmenulink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+            href="#">About <i class="fas fa-chevron-down"></i></a>
+
+          <div class="dropdown-menu menu1" aria-labelledby="dropdownmenulink">
+            <a class="dropdown-item modal-link" href="about.html">About us</a>
+            <a class="dropdown-item modal-link" href="team.html">Team</a>
+            <a class="dropdown-item modal-link" href="testimonial.html">Testimonials</a>
+
+            <a class="nav-link" id="dropdownmenulink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+              href="#">Deep Drop Down <i class="fas fa-chevron-left"></i></a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 1</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 2</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 3</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 4</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 5</a>
+            </div>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="services.html" target="_self">Services</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html" target="_self">Portfolio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="pricing.html" target="_self">Pricing</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html" target="_self">Blog</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" target="_self">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <a href="#" role="button" class="btn btn-danger" id="get">Get started</a>
+  </nav>
+  <!--=============================end of navigation================-->
+
+
+  <!--breadcrumb-->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb" id="bread">
+      <p class="about">Pricing</p>
+      <li class="breadcrumb-item ml-auto">
+        <a href="index.html" class="home">Home</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">Pricing</li>
+  </nav>
+  <!---end of breadcrumb-->
+
+  <!--====Pricing-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="pricing-box">
+          <div class="pricing-box-top">
+            <h5 class="pricing-head">Free</h5>
+          </div>
+          <div class="text-center">
+            <span class="price"><sup>$</sup>0 </span><sub class="month">/month</sub>
+          </div>
+          <p class="plan">Aida dere</p>
+          <p class="plan">Nec feugiat nisl</p>
+          <p class="plan">Nulla at volutpat dola</p>
+          <del>
+            <p class="plan" style="color: rgb(145, 139, 139);">Pharetra massa</p>
+          </del>
+          <del>
+            <p class="plan" style="color: rgb(145, 139, 139);">Pharetra massa</p>
+          </del>
+          <div class="pricing-box-down">
+            <div class="text-center">
+              <a href="#" role="button" class="btn btn-danger" id="buynow-button">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="pricing-box">
+          <div class="pricing-box-top2">
+            <h5 class="pricing-head2">Business</h5>
+          </div>
+          <div class="text-center">
+            <span class="price"><sup>$</sup>19 </span><sub class="month">/month</sub>
+          </div>
+          <p class="plan">Aida dere</p>
+          <p class="plan">Nec feugiat nisl</p>
+          <p class="plan">Nulla at volutpat dola</p>
+          <p class="plan">Pharetra massa</p>
+          <del>
+            <p class="plan" style="color: rgb(145, 139, 139);">Pharetra massa</p>
+          </del>
+          <div class="pricing-box-down">
+            <div class="text-center">
+              <a href="#" role="button" class="btn btn-danger" id="buynow-button">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="pricing-box">
+          <div class="pricing-box-top">
+            <h5 class="pricing-head">Developer</h5>
+          </div>
+          <div class="text-center">
+            <span class="price"><sup>$</sup>29 </span><sub class="month">/month</sub>
+          </div>
+          <p class="plan">Aida dere</p>
+          <p class="plan">Nec feugiat nisl</p>
+          <p class="plan">Nulla at volutpat dola</p>
+          <p class="plan">Pharetra massa</p>
+          <p class="plan">Pharetra massa</p>
+          <div class="pricing-box-down">
+            <div class="text-center">
+              <a href="#" role="button" class="btn btn-danger" id="buynow-button">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="pricing-box">
+          <div class="pricing-box-top">
+            <h5 class="pricing-head">Ultimate</h5>
+          </div>
+          <div class="text-center">
+            <span class="price"><sup>$</sup>49 </span><sub class="month">/month</sub>
+          </div>
+          <p class="plan">Aida dere</p>
+          <p class="plan">Nec feugiat nisl</p>
+          <p class="plan">Nulla at volutpat dola</p>
+          <p class="plan">Pharetra massa</p>
+          <p class="plan">Pharetra massa</p>
+          <div class="pricing-box-down">
+            <div class="text-center">
+              <a href="#" role="button" class="btn btn-danger" id="buynow-button">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--====End of pricing====-->
+
+
+
+  <!--========Frquently asked question=======-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h6 class="service1">F.A.Q</h6>
+        <h3 class="service2">FREQUENTLY ASKED QUESTIONS</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="question"><img src="img/question-mark.svgz.png" class="mark"> Non consectetur a erat nam at lectus
+          urna duis?</p>
+        <div class="question1" id="que3">
+          <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
+            id volutpat lacus laoreet non curabitur gravida. Venenatis lectus
+            magna fringilla urna porttitor rhoncus dolor purus non.</p>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <p class="question"><img src="img/question-mark.svgz.png" class="mark"> Feugiat scelerisque varius morbi enim
+          nunc<br>faucibus a
+          pellentesque?</p>
+        <div class="question1" id="que2">
+          <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.
+            Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
+            scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
+            dignissim.</p>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <p class="question"><img src="img/question-mark.svgz.png" class="mark"> Dolor sit amet consectetur adipiscing
+          elit
+          pellentesque<br>habitant morbi?</p>
+        <div class="question1" id="que">
+          <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
+            Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit
+            amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna
+            duis convallis convallis tellus.</p>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <p class="question"><img src="img/question-mark.svgz.png" class="mark"> Ac odio tempor orci dapibus. Aliquam
+          eleifend mi in<br>nulla?
+        </p>
+        <div class="question1">
+          <p>Aperiam itaque sit optio et deleniti eos nihil quidem cumque.
+            Voluptas dolorum accusantium sunt sit enim. Provident consequuntur
+            quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta
+            sunt pariatur error doloribus fuga.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <p class="question"><img src="img/question-mark.svgz.png" class="mark"> Tempus quam pellentesque nec nam aliquam
+          sem et<br>tortor
+          consequat?</p>
+        <div class="question1">
+          <p>Molestie a iaculis at erat pellentesque adipiscing commodo.
+            Dignissim suspendisse in est ante in. Nunc vel risus commodo
+            viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est.
+            Purus gravida quis blandit turpis cursus in
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!--=============Footer======-->
+  <footer id="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="sailor">sailor</h5>
+          <p class="footer-address">A108 Adam Street<br>NY 535022, USA</p>
+          <p class="footer-number"><strong>Phone:</strong>+1 5589 55488 55</p>
+          <p class="footer-email"><strong>Email:</strong>info@example.com</p>
+          <i class="fab fa-twitter social"></i>
+          <i class="fab fa-facebook-f social"></i>
+          <i class="fab fa-instagram social"></i>
+          <i class="fab fa-skype social"></i>
+          <i class="fab fa-linkedin-in social"></i>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="other-link">useful links </h5>
+          <p class="sailor-link">> Home</p>
+          <p class="sailor-link">> About us</p>
+          <p class="sailor-link">> Services</p>
+          <p class="sailor-link">> Terms of service</p>
+          <p class="sailor-link">> Privacy policy</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="other-link">our services</h5>
+          <p class="sailor-link">> web design</p>
+          <p class="sailor-link">> web development</p>
+          <p class="sailor-link">> product management</p>
+          <p class="sailor-link">> marketing</p>
+          <p class="sailor-link">> graphics design</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3" id="newsletter">
+          <h5 class="other-link">our newsletter</h5>
+          <p class="footer-line">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <input type="text" name="email" class="form-control">
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer-down">
+      <div class="footer-downtext">
+        © Copyright Sailor. All Rights Reserved</div>
+      <div class="footer-downtext1">
+        Designed by Leumas Tech
+      </div>
+    </footer>
+  </footer>
+
+
+  <!--====================Modal for navigation -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-body">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="index.html">Home</a>
+            </li>
+
+            <li class="dropdown show">
+
+              <a class="nav-link dropdown-toggle modal-link" id="dropdownmenulink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" href="#">About</a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+                <a class="dropdown-item modal-link" href="about.html">About us</a>
+                <a class="dropdown-item modal-link" href="team.html">Team</a>
+                <a class="dropdown-item modal-link" href="testimonial.html">Testimonials</a>
+
+                <a class="nav-link dropdown-toggle modal-link" id="dropdownmenulink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" href="#">Deep Drop Down</a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 1</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 2</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 3</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 4</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 5</a>
+                </div>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="services.html" target="_self">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="portfolio.html" target="_self">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="pricing.html" target="_self">Pricing</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="blog.html" target="_self">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="contact.html" target="_self">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---of of modal subscribe-->
+
+  <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+
+  <!--========================javascript-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Vendor JS -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/owl.carousel/owl.carousel.js"></script>
+  <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+
+  <!-- my js -->
+  <script src="js/main.js"></script>
+  <!--===================End of javascript-->
+</body>
+
+</html>

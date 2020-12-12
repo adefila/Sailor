@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sailor-Blog single</title>
+
+  <!------meta-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="adefila samuel">
+  <meta name="keyboards" content="html,css,javascipt">
+  <meta name="description" content="sailor">
+
+
+
+  <!--======googlefont-->
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sansita Swashed' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather Sans' rel='stylesheet'>
+
+  <!--=====font-awesome-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!--=====bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!--=====vendor-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!--==========favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+
+  <!--=====my style css-->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--============================navigation================-->
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+
+    <a class="navbar-brand" href="index.html">sailor</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#exampleModal"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-align-justify"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="dropdown show">
+
+          <a class="nav-link dropdown-toggle" id="dropdownmenulink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false" href="#">About</a>
+
+          <div class="dropdown-menu menu1" aria-labelledby="dropdownmenulink">
+            <a class="dropdown-item modal-link" href="about.html">About us</a>
+            <a class="dropdown-item modal-link" href="team.html">Team</a>
+            <a class="dropdown-item modal-link" href="testimonial.html">Testimonials</a>
+
+            <a class="nav-link dropdown-toggle" id="dropdownmenulink" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false" href="#">Deep Drop Down</a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 1</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 2</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 3</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 4</a>
+              <a class="dropdown-item modal-link" href="#">Deep Drop Down 5</a>
+            </div>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="services.html" target="_self">Services</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html" target="_self">Portfolio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html" target="_self">Pricing</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="blog.html" target="_self">Blog</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" target="_self">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <a href="#" role="button" class="btn btn-danger" id="get">Get started</a>
+  </nav>
+  <!--=============================end of navigation================-->
+
+  <!--breadcrumb-->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb" id="bread">
+      <p class="about" id="about-2">Dolorum</p>
+      <li class="breadcrumb-item ml-auto">
+        <a href="index.html" class="home">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="blog.html" class="home">Blog</a>
+      </li>
+
+  </nav>
+  <!---end of breadcrumb-->
+
+  <!--BLog-->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-8 mb-5">
+        <div class="card blog-single" id="card">
+
+          <img src="img/blog-1.jpg" class="card-img-top" alt="blog-1">
+          <div class="card-body">
+            <p class="card-title2">Dolorum optio tempore voluptas dignissimos cumque fuga qui
+              quibusdam quia</p>
+            <a href="#" class="user"><i class="fas fa-user"></i> John Doe</a>
+            <a href="#" class="user"><i class="far fa-clock"></i> Jan 1, 2020
+            </a>
+            <a href="#" class="user"><i class="fas fa-comment"></i> 12 Comments
+            </a>
+            <p class="body-text">Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi
+              praesentium. Aliquam et
+              laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque
+              deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur
+              assumenda perferendis dolore.<br><br>
+              Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel
+              aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.</p>
+
+            <div class="extra-comment">
+              <p> <i class="fas fa-quote-left"></i> Et vero doloremque tempore voluptatem
+                ratione vel
+                aut.<br>Deleniti sunt
+                animi aut.Aut eos aliquam
+                doloribus minus autem quos.<i class="fas fa-quote-right"></i></p>
+            </div>
+
+            <p>Sed quo laboriosam qui architecto. Occaecati repellendus omnis dicta inventore tempore provident
+              voluptas
+              mollitia aliquid. Id repellendus quia. Asperiores nihil magni dicta est suscipit perspiciatis. Voluptate
+              ex rerum assumenda dolores nihil quaerat. Dolor porro tempora et quibusdam voluptas. Beatae aut at ad
+              qui
+              tempore corrupti velit quisquam rerum. Omnis dolorum exercitationem harum qui qui blanditiis neque.
+              Iusto
+              autem itaque. Repudiandae hic quae aspernatur ea neque qui. Architecto voluptatem magni. Vel magnam quod
+              et tempora deleniti error rerum nihil tempora.</p>
+
+            <h4 class="inside-post">Et quae iure vel ut odit alias.</h4>
+            <p>Officiis animi maxime nulla quo et harum eum quis a. Sit hic in qui quos fugit ut rerum atque. Optio
+              provident dolores atque voluptatem rem excepturi molestiae qui. Voluptatem laborum omnis ullam quibusdam
+              perspiciatis nulla nostrum. Voluptatum est libero eum nesciunt aliquid qui. Quia et suscipit non sequi.
+              Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione aspernatur dolor. Sint harum
+              eveniet
+              dicta exercitationem minima. Exercitationem omnis asperiores natus aperiam dolor consequatur id ex sed.
+              Quibusdam rerum dolores sint consequatur quidem ea. Beatae minima sunt libero soluta sapiente in rem
+              assumenda. Et qui odit voluptatem. Cum quibusdam voluptatem voluptatem accusamus mollitia aut atque aut.
+            </p>
+            <img src="img/blog-inside-post.jpg" class="w-100">
+
+            <h5 class="inside-post">Ut repellat blanditiis est dolore sunt dolorum quae.</h5>
+            <p>Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In assumenda quia quae a
+              id praesentium. Quos deleniti libero sed occaecati aut porro autem. Consectetur sed excepturi sint non
+              placeat quia repellat incidunt labore. Autem facilis hic dolorum dolores vel. Consectetur quasi id et
+              optio praesentium aut asperiores eaque aut. Explicabo omnis quibusdam esse. Ex libero illum iusto totam
+              et
+              ut aut blanditiis. Veritatis numquam ut illum ut a quam vitae.
+              <br><br>
+              Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas incidunt. Nulla sit
+              eaque mollitia nisi asperiores est veniam.
+            </p>
+            <hr class="blog-line">
+            <p id="folder"><i class="fas fa-folder"></i> Business</p>
+            <p id="tags"><i class="fas fa-tags"></i> Creative, Tips, Marketing</p>
+            <a href="#"><i class="fab fa-twitter blog-social"></i></a>
+            <a href="#"><i class="fab fa-facebook-f blog-social"></i></a>
+            <a href="#"><i class="fab fa-instagram blog-social"></i></a>
+          </div>
+        </div>
+
+        <!--Extra Comments-->
+        <div class="" id="author">
+          <img src="img/blog-author.jpg" class="w-100 name">
+          <h5 id="test">Jane Smith</h5>
+          <a href="#"><i class="fab fa-twitter" id="blog-social"></i>
+            <a href="#"><i class="fab fa-facebook-f" id="blog-social"></i></a>
+            <a href="#"><i class="fab fa-instagram" id="blog-social"></i></a>
+            <p id="extra-comment">Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus
+              accusantium. Quas
+              repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
+            </p>
+            </i>
+        </div>
+
+
+        <!--Comment Section-->
+        <p class="blog-comments">8 Comments</p>
+
+        <!--Comments-1-->
+        <img src="img/comments-1.jpg" id="comment-user-img">
+        <p id="user-name">Georgia Reader <i class="fas fa-reply"></i> Reply</p>
+        <p id="user-time">01 Jan, 2020</p>
+        <p id="user-comment">rerum totam nisi. Molestiae vel quam dolorum vel voluptatem et et.<br>Est ad aut sapiente
+          quis molestiae est qui cum soluta. Vero aut rerum<br> vel. Rerum quos laboriosam placeat ex qui. Sint qui
+          facilis
+          et.</p>
+
+        <!-- Comments-2 -->
+        <img src="img/comments-2.jpg" id="comment-user-img">
+        <p id="user-name">Aron Alvarado<i class="fas fa-reply"></i> Reply</p>
+        <p id="user-time">01 Jan, 2020</p>
+        <p id="user-comment">Ipsam tempora sequi voluptatem quis sapiente non. Autem itaque<br> eveniet saepe.
+          Officiis
+          illo ut beatae.et.</p>
+
+        <!-- Comments-3 -->
+        <div id="user-comment-extra">
+          <img src="img/comments-3.jpg" id="comment-user-img">
+          <p id="user-name">Lynda Small<i class="fas fa-reply"></i> Reply</p>
+          <p id="user-time">01 Jan, 2020</p>
+          <p id="user-comment">Enim ipsa eum fugiat fuga repellat. Commodi quo quo dicta. Est ullam<br> aspernatur
+            utvitae quia mollitia id non. Qui adquas nostrum rerum sed<br> necessitatibus aut est. Eum officiis sed
+            repellat
+            maxime vero nisi natus.<br> Amet nesciuntnes ciunt qui illum omnis est et dolor recusandae.<br> Recusandae
+            sit
+            adaut impedit et. Ipsa labore dolor impedit et natus<br>in porro aut. Magnam qui cum. Illo similique
+            occaecati
+            nihil modi<br> eligendi. Pariatur distinctio labore omnis incidunt et illum.Expedita<br> et dignissimos
+            distinctio laborum minima fugiat. Libero corporis qui.<br> Nam illo odio beatae
+            enim ducimus. Harum reiciendis error dolorum<br> non autem quisquam vero rerum neque</p>
+        </div>
+
+        <!-- Comments-4 -->
+        <div id="user-comment-extra">
+          <img src="img/comments-4.jpg" id="comment-user-img">
+          <p id="user-name">Sianna Ramsay<i class="fas fa-reply"></i> Reply</p>
+          <p id="user-time">01 Jan, 2020</p>
+          <p id="user-comment">Et dignissimos impedit nulla et quo distinctio ex nemo. Omnis quia<br> dolores
+            cupiditate
+            et.Ut unde qui eligendi sapiente omnis ullam.<br> Placeat porro est commodi est officiis voluptas repellat
+            quisquam<br> possimus. Perferendis id consectetur necessitatibus.</p>
+        </div>
+        <!-- Comments-5 -->
+        <img src="img/comments-5.jpg" id="comment-user-img">
+        <p id="user-name">Aron Alvarado<i class="fas fa-reply"></i> Reply</p>
+        <p id="user-time">01 Jan, 2020</p>
+        <p id="user-comment">Distinctio nesciunt rerum reprehenderit sed. Iste omnis eius repellendus<br> quia nihil
+          ut
+          accusantium tempore. Nesciunt expedita id dolor exercitationem<br> aspernatur aut quam ut. Voluptatem est
+          accusamus iste at. Non aut et et esse <br>qui sit modi neque. Exercitationem et eos aspernatur. Ea est
+          consequuntur<br> officia beatae ea aut eos soluta. Non qui dolorum
+          voluptatibus et optio veniam.<br> Quam officia sit nostrum dolorem.</p>
+
+        <!-- Comments-6 -->
+        <img src="img/comments-6.jpg" id="comment-user-img">
+        <p id="user-name">Aron Alvarado<i class="fas fa-reply"></i> Reply</p>
+        <p id="user-time">01 Jan, 2020</p>
+        <p id="user-comment">Dolorem atque aut. Omnis doloremque blanditiis quia eum porro quis ut velit<br> tempore.
+          Cumque sed quia ut maxime. Est ad aut cum. Ut exercitationem non in fugiat.</p>
+
+
+
+        <!--Leave a Reply Section-->
+        <div class="reply-section">
+          <h5 class="reply-head">Leave a Reply</h5>
+          <p>Your email address will not be published. Required fields are marked *</p>
+          <form class="form-inline mb-3">
+            <input type="text" class="form-control" id="form-name" name="name" placeholder="Your Name*">
+            <input type="text" class="form-control" id="form-name" name="email" placeholder="Your Email*">
+          </form>
+          <input type="text" class="form-control mb-3" name="text" placeholder="Your Website">
+          <textarea class="form-control" rows="4" cols="40" placeholder="Your Comment*"></textarea>
+          <button type="submit" class="btn btn-secondary" id="btn-secondary">Post Comment</button>
+        </div>
+
+      </div>
+
+      <!--Search Section-->
+      <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="card mb-5 search" id="card">
+          <div class="card-body">
+            <h5 class="search-text">Search</h5>
+            <div class="search">
+              <i class="fas fa-search"></i>
+              <input type="search" name="text" class="form-control">
+
+              <!--==Categories==-->
+              <h5 class="search-text">Categories</h5>
+              <div class="categories">
+                <p>General <span class="number">(25)</span></p>
+                <p>Lifestyle <span class="number">(12)</span></p>
+                <p>Travel <span class="number">(5)</span></p>
+                <p>Design <span class="number">(22)</span></p>
+                <p>Creative <span class="number">(8)</span></p>
+                <p>Education <span class="number">(14)</span></p>
+              </div>
+
+              <!--==Recent Posts==-->
+              <h5 class="search-text">Recent Posts</h5>
+              <p class="recent-post">Nihil blanditiis at in<br>nihil autem</p>
+              <div class="time" id="post-time">
+                <i>Jan 1,2020</i>
+              </div>
+
+              <p class="recent-post">Quidem autem et<br>impedit</p>
+              <div class="time" id="post-time">
+                <i>Jan 1,2020</i>
+              </div>
+
+              <p class="recent-post">Id quia et et ut maxime<br>similique occaecati ut
+              </p>
+              <div class="time" id="post-time">
+                <i>Jan 1,2020</i>
+              </div>
+
+              <p class="recent-post">Laborum corporis<br>quo dara net para
+              </p>
+              <div class="time" id="post-time">
+                <i>Jan 1,2020</i>
+              </div>
+
+              <p class="recent-post">Et dolores corrupti<br>quae illo quod dolor
+              </p>
+              <div class="time" id="post-time">
+                <i>Jan 1,2020</i>
+              </div>
+
+              <!--==Tags==-->
+              <h5 class="search-text">Tags</h5>
+              <div class="d-flex justify-text-center">
+                <button type="button" class="btn btn-light" id="tag-btn">App</button>
+                <button type="button" class="btn btn-light" id="tag-btn">IT</button>
+                <button type="button" class="btn btn-light" id="tag-btn">Business</button>
+              </div>
+
+              <div class="d-flex justify-text-center">
+                <button type="button" class="btn btn-light" id="tag-btn">Business</button>
+                <button type="button" class="btn btn-light" id="tag-btn">Mac</button>
+                <button type="button" class="btn btn-light" id="tag-btn">Design</button>
+              </div>
+
+              <div class="d-flex justify-text-center">
+                <button type="button" class="btn btn-light" id="tag-btn">Office</button>
+                <button type="button" class="btn btn-light" id="tag-btn">Creative</button>
+                <button type="button" class="btn btn-light" id="tag-btn">Studio</button>
+              </div>
+
+              <div class="d-flex justify-text-center">
+                <button type="button" class="btn btn-light" id="tag-btn">Smart</button>
+                <button type="button" class="btn btn-light" id="tag-btn">Tips</button>
+                <button type="button" class="btn btn-light" id="tag-btn">Marketing</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--========End of Blog-->
+
+
+
+  <!--=============Footer======-->
+  <footer id="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="sailor">sailor</h5>
+          <p class="footer-address">A108 Adam Street<br>NY 535022, USA</p>
+          <p class="footer-number"><strong>Phone:</strong>+1 5589 55488 55</p>
+          <p class="footer-email"><strong>Email:</strong>info@example.com</p>
+          <i class="fab fa-twitter social"></i>
+          <i class="fab fa-facebook-f social"></i>
+          <i class="fab fa-instagram social"></i>
+          <i class="fab fa-skype social"></i>
+          <i class="fab fa-linkedin-in social"></i>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="other-link">useful links </h5>
+          <p class="sailor-link">> Home</p>
+          <p class="sailor-link">> About us</p>
+          <p class="sailor-link">> Services</p>
+          <p class="sailor-link">> Terms of service</p>
+          <p class="sailor-link">> Privacy policy</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="other-link">our services</h5>
+          <p class="sailor-link">> web design</p>
+          <p class="sailor-link">> web development</p>
+          <p class="sailor-link">> product management</p>
+          <p class="sailor-link">> marketing</p>
+          <p class="sailor-link">> graphics design</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3" id="newsletter">
+          <h5 class="other-link">our newsletter</h5>
+          <p class="footer-line">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <input type="text" name="email" class="form-control">
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer-down">
+      <div class="footer-downtext">
+        © Copyright Sailor. All Rights Reserved</div>
+      <div class="footer-downtext1">
+        Designed by Leumas Tech
+      </div>
+    </footer>
+  </footer>
+
+
+  <!--====================Modal for navigation -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-body">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="index.html">Home</a>
+            </li>
+
+            <li class="dropdown show">
+
+              <a class="nav-link dropdown-toggle modal-link" id="dropdownmenulink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" href="#">About</a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+                <a class="dropdown-item modal-link" href="about.html">About us</a>
+                <a class="dropdown-item modal-link" href="team.html">Team</a>
+                <a class="dropdown-item modal-link" href="testimonial.html">Testimonials</a>
+
+                <a class="nav-link dropdown-toggle modal-link" id="dropdownmenulink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" href="#">Deep Drop Down</a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 1</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 2</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 3</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 4</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 5</a>
+                </div>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="services.html" target="_self">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link active" href="portfolio.html" target="_self">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="pricing.html" target="_self">Pricing</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="blog.html" target="_self">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="contact.html" target="_self">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---of of modal subscribe-->
+
+
+  <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+  <!--========================javascript-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Vendor JS -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/owl.carousel/owl.carousel.js"></script>
+  <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+
+  <!-- my js -->
+  <script src="js/main.js"></script>
+  <!--===================End of javascript-->
+</body>
+
+</html>

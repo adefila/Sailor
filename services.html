@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sailor-Sevices</title>
+
+  <!------meta-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="adefila samuel">
+  <meta name="keyboards" content="html,css,javascipt">
+  <meta name="description" content="sailor">
+
+
+
+  <!--======googlefont-->
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sansita Swashed' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather Sans' rel='stylesheet'>
+
+  <!--=====font-awesome-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+  <!--=====bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!--=====vendor-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!--==========favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+
+  <!--=====my style css-->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--============================navigation================-->
+
+  <section>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+
+      <a class="navbar-brand" href="index.html" id="logo">sailor</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#exampleModal"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-align-justify"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="dropdown show">
+
+            <a class="nav-link" id="dropdownmenulink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+              href="#">About <i class="fas fa-chevron-down"></i></a>
+
+            <div class="dropdown-menu menu1" aria-labelledby="dropdownmenulink">
+              <a class="dropdown-item modal-link" href="about.html">About us</a>
+              <a class="dropdown-item modal-link" href="team.html">Team</a>
+              <a class="dropdown-item modal-link" href="testimonial.html">Testimonials</a>
+
+              <a class="nav-link" id="dropdownmenulink" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false" href="#">Deep Drop Down <i class="fas fa-chevron-left"></i></a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+                <a class="dropdown-item modal-link" href="#">Deep Drop Down 1</a>
+                <a class="dropdown-item modal-link" href="#">Deep Drop Down 2</a>
+                <a class="dropdown-item modal-link" href="#">Deep Drop Down 3</a>
+                <a class="dropdown-item modal-link" href="#">Deep Drop Down 4</a>
+                <a class="dropdown-item modal-link" href="#">Deep Drop Down 5</a>
+              </div>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link active" href="services.html" target="_self">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html" target="_self">Portfolio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html" target="_self">Pricing</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html" target="_self">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" target="_self">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#" role="button" class="btn btn-danger" id="get">Get started</a>
+    </nav>
+    </div>
+
+  </section>
+  <!--=============================end of navigation================-->
+
+
+  <!--breadcrumb-->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb" id="bread">
+      <p class="about">Services</p>
+      <li class="breadcrumb-item ml-auto">
+        <a href="index.html" class="home">Home</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">Services</li>
+  </nav>
+  <!---end of breadcrumb-->
+
+
+
+  <!--=============================SERVIVE SECTION-->
+  <section id="servicesection">
+
+    <!--=============================SERVIVE SECTION-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h6 class="service1">service
+            <hr class="serviceline">
+          </h6>
+          <h3 class="service2">the services we offer</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="jumbotron jumbotron-service">
+            <i class="fa fa-desktop icon"> <a href="#" class="service3head">Lorem Ipsum</a></i>
+            <p class="service3">Voluptatum deleniti atque corrupti quos dolores
+              et quas<br>molestias excepturi sint occaecati cupiditate non provident</p>
+          </div>
+        </div>
+
+
+        <div class="col-md-6">
+          <div class="jumbotron jumbotron-service">
+            <i class="fa fa-bar-chart icon"> <a href="#" class="service3head">Dolor Sitema</a></i>
+            <p class="service3">Minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut<br>aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="jumbotron jumbotron-service">
+            <i class="fa fa-image icon"> <a href="#" class="service3head">Sed ut perspiciatis</a></i>
+            <p class="service3">Duis aute irure dolor in reprehenderit in voluptate velit esse<br>
+              cillum dolore eu fugiat nulla pariatur</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="jumbotron jumbotron-service">
+            <i class="fa fa-sliders icon"> <a href="#" class="service3head">Nemo Enim</a></i>
+            <p class="service3">Excepteur sint occaecat cupidatat non proident, sunt in culpa<br>
+              qui officia deserunt mollit anim id est laborum</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="jumbotron jumbotron-service">
+            <i class="fa fa-globe icon"> <a href="#" class="service3head">Magni Dolore</a></i>
+            <p class="service3">At vero eos et accusamus et iusto odio dignissimos ducimus<br>
+              qui blanditiis praesentium voluptatum deleniti atque</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="jumbotron jumbotron-service">
+            <i class="fa fa-calendar icon"> <a href="#" class="service3head">Eiusmod Tempor</a></i>
+            <p class="service3">Et harum quidem rerum facilis est et expedita distinctio.
+              Nam libero<br>tempore, cum soluta nobis est eligendi</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!--===============end of SERVICE SECTION-->
+
+
+  <!--===============Features==========-->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12">
+        <h6 class="service1">features
+          <hr class="featureline">
+        </h6>
+        <h3 class="service2">check our features</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="accordion" id="accordionExample">
+      <div class="row">
+        <div class="col-lg-3">
+          <ul class="feature-list">
+            <li class="feature-list-item active" data-toggle="collapse" data-target="#modi">Modi sit est</li>
+            <li class="feature-list-item" data-toggle="collapse" data-target="#unde">Unde praesentium sed</li>
+            <li class="feature-list-item" data-toggle="collapse" data-target="#pari">Pariatur explicabo vel</li>
+            <li class="feature-list-item" data-toggle="collapse" data-target="#nost">Nostrum qui quasi</li>
+            <li class="feature-list-item" data-toggle="collapse" data-target="#ut">Iusto ut expedita aut</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-9 mt-4">
+
+          <!-- First collpase -->
+          <a id="modi" class="collapse active show collaping" data-parent="#accordionExample">
+            <div class="row">
+              <div class="col-lg-8 mt-">
+                <h5 class="feature-title">Architecto ut aperiam autem id</h5>
+                <i class="feature-text">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a
+                  videna mareta paulonamarka</i><br><br>
+                <p class="feature-text">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum
+                  eos
+                  ipsum ipsa odit magni.
+                  Incidunt hic
+                  ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem
+                  quaerat
+                  quos
+                  qui
+                  similique accusamus nostrum rem vero</p>
+          </a>
+        </div>
+
+
+        <div class="col-lg-3">
+          <img src="img/features-1.png" id="modi" class="collapse show w-100 collaping img-fluid"
+            data-parent="#accordionExample">
+        </div>
+      </div>
+
+
+
+
+      <!-- Second collapse -->
+      <a id="unde" class="collapse" data-parent="#accordionExample">
+        <div class="row">
+          <div class="col-lg-8">
+            <h5 class="feature-title-2">Architecto ut aperiam autem id</h5>
+            <i class="feature-text">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata
+              raqer
+              a
+              videna mareta paulonamarka</i><br><br>
+            <p class="feature-text">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint.
+              Laborum
+              eos
+              ipsum ipsa odit magni.
+              Incidunt hic
+              ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem
+              quaerat
+              quos
+              qui
+              similique accusamus nostrum rem vero</p>
+      </a>
+    </div>
+    <div class="col-lg-3">
+      <img src="img/features-2.png" id="unde" class="collapse w-100 img-fluid-2" data-parent="#accordionExample">
+    </div>
+  </div>
+
+
+  <!-- Third collapse -->
+  <a id="pari" class="collapse" data-parent="#accordionExample">
+    <div class="row">
+      <div class="col-lg-8">
+        <h5 class="feature-title-3">Architecto ut aperiam autem id</h5>
+        <i class="feature-text">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata
+          raqer
+          a
+          videna mareta paulonamarka</i><br><br>
+        <p class="feature-text">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint.
+          Laborum
+          eos
+          ipsum ipsa odit magni.
+          Incidunt hic
+          ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem
+          quaerat
+          quos
+          qui
+          similique accusamus nostrum rem vero</p>
+  </a>
+  </div>
+  <div class="col-lg-3">
+    <img src="img/features-3.png" id="pari" class="collapse w-100 img-fluid-3" data-parent="#accordionExample">
+  </div>
+  </div>
+
+  <!-- Fourth collapse -->
+  <a id="nost" class="collapse" data-parent="#accordionExample">
+    <div class="row">
+      <div class="col-lg-8">
+        <h5 class="feature-title-4">Architecto ut aperiam autem id</h5>
+        <i class="feature-text">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata
+          raqer
+          a
+          videna mareta paulonamarka</i><br><br>
+        <p class="feature-text">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint.
+          Laborum
+          eos
+          ipsum ipsa odit magni.
+          Incidunt hic
+          ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem
+          quaerat
+          quos
+          qui
+          similique accusamus nostrum rem vero</p>
+  </a>
+  </div>
+  <div class="col-lg-3">
+    <img src="img/features-3.png" id="nost" class="collapse w-100 img-fluid-4" data-parent="#accordionExample">
+  </div>
+  </div>
+
+  <!-- Fifth collapse -->
+  <a id="ut" class="collapse" data-parent="#accordionExample">
+    <div class="row">
+      <div class="col-lg-8">
+        <h5 class="feature-title-5">Architecto ut aperiam autem id</h5>
+        <i class="feature-text">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata
+          raqer
+          a
+          videna mareta paulonamarka</i><br><br>
+        <p class="feature-text">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint.
+          Laborum
+          eos
+          ipsum ipsa odit magni.
+          Incidunt hic
+          ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem
+          quaerat
+          quos
+          qui
+          similique accusamus nostrum rem vero</p>
+  </a>
+  </div>
+  <div class="col-lg-3">
+    <img src="img/features-3.png" id="ut" class="collapse w-100 img-fluid-5" data-parent="#accordionExample">
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+  <!--=====End of features========-->
+
+
+  <!--=============Footer======-->
+  <footer id="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="sailor">sailor</h5>
+          <p class="footer-address">A108 Adam Street<br>NY 535022, USA</p>
+          <p class="footer-number">Phone:+1 5589 55488 55</p>
+          <p class="footer-email">Email:info@example.com</p>
+          <i class="fab fa-twitter social"></i>
+          <i class="fab fa-facebook-f social"></i>
+          <i class="fab fa-instagram social"></i>
+          <i class="fab fa-skype social"></i>
+          <i class="fab fa-linkedin-in social"></i>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="other-link">useful links </h5>
+          <p class="sailor-link">> Home</p>
+          <p class="sailor-link">> About us</p>
+          <p class="sailor-link">> Services</p>
+          <p class="sailor-link">> Terms of service</p>
+          <p class="sailor-link">> Privacy policy</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h5 class="other-link">our services</h5>
+          <p class="sailor-link">> web design</p>
+          <p class="sailor-link">> web development</p>
+          <p class="sailor-link">> product management</p>
+          <p class="sailor-link">> marketing</p>
+          <p class="sailor-link">> graphics design</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3" id="newsletter">
+          <h5 class="other-link">our newsletter</h5>
+          <p class="footer-line">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <input type="text" name="email" class="form-control">
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer-down">
+      <div class="footer-downtext">
+        © Copyright Sailor. All Rights Reserved</div>
+      <div class="footer-downtext1">
+        Designed by Leumas Tech
+      </div>
+    </footer>
+  </footer>
+  <!--=====End of footer====-->
+
+  <!--====================Modal for navigation -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-body">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="index.html">Home</a>
+            </li>
+
+            <li class="dropdown show">
+
+              <a class="nav-link dropdown-toggle modal-link" id="dropdownmenulink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" href="#">About</a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+                <a class="dropdown-item modal-link" href="about.html">About us</a>
+                <a class="dropdown-item modal-link" href="team.html">Team</a>
+                <a class="dropdown-item modal-link" href="testimonial.html">Testimonials</a>
+
+                <a class="nav-link dropdown-toggle modal-link" id="dropdownmenulink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" href="#">Deep Drop Down</a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownmenulink">
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 1</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 2</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 3</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 4</a>
+                  <a class="dropdown-item modal-link" href="#">Deep Drop Down 5</a>
+                </div>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="services.html" target="_self">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="portfolio.html" target="_self">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="pricing.html" target="_self">Pricing</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="blog.html" target="_self">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link modal-link" href="contact.html" target="_self">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---of of modal subscribe-->
+
+  <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+  <!--========================javascript-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Vendor JS -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/owl.carousel/owl.carousel.js"></script>
+  <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+
+  <!-- my js -->
+  <script src="js/main.js"></script>
+  <!--===================End of javascript-->
+</body>
+
+</html>
